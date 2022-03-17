@@ -6,9 +6,24 @@ from airtest.core.api import *
 auto_setup(__file__)
 touch(Template(r"tpl1647238706646.png", record_pos=(0.366, 0.218), resolution=(1600, 900)))
 sleep(1.0)
+if exists(Template(r"tpl1647416046766.png", record_pos=(-0.136, 0.132), resolution=(1600, 900))):
+    sleep(4.0)
+    touch(Template(r"tpl1647416039131.png", record_pos=(0.334, 0.229), resolution=(1600, 900)))
+
+sleep(4.0)
+
+
+if exists(Template(r"tpl1647416046766.png", record_pos=(-0.136, 0.132), resolution=(1600, 900))):
+    touch(Template(r"tpl1647416039131.png", record_pos=(0.334, 0.229), resolution=(1600, 900)))
+sleep(4.0)
+
+if exists(Template(r"tpl1647416046766.png", record_pos=(-0.136, 0.132), resolution=(1600, 900))):
+    touch(Template(r"tpl1647416039131.png", record_pos=(0.334, 0.229), resolution=(1600, 900)))
+sleep(4.0)
 
 # 扫荡
-touch(Template(r"tpl1647397738841.png", record_pos=(0.101, 0.187), resolution=(1600, 900)))
+if exists(Template(r"tpl1647397738841.png", record_pos=(0.101, 0.187), resolution=(1600, 900))):
+    touch(Template(r"tpl1647397738841.png", record_pos=(0.101, 0.187), resolution=(1600, 900)))
 
 sleep(1.0)
 if exists(Template(r"tpl1647242504215.png", record_pos=(0.244, 0.123), resolution=(1600, 900))):
@@ -31,7 +46,7 @@ sleep(2.0)
 if exists(Template(r"tpl1647242664907.png", record_pos=(0.33, -0.184), resolution=(1600, 900))):
     touch(Template(r"tpl1647242664907.png", record_pos=(0.33, -0.184), resolution=(1600, 900)))
 
-sleep(1.0)
+sleep(2.0)
 
 
 
@@ -65,11 +80,32 @@ sleep(10.0)
 touch(Template(r"tpl1647397801607.png", record_pos=(0.426, 0.152), resolution=(1600, 900)))
 
 sleep(10.0)
+
+if exists(Template(r"tpl1647415241390.png", record_pos=(-0.357, 0.215), resolution=(1600, 900))):
+    touch(Template(r"tpl1647415254293.png", record_pos=(-0.356, 0.215), resolution=(1600, 900)))
+w,h=device().get_current_resolution()#获取手机分辨率
+
+    
+if exists(Template(r"tpl1647416357977.png", record_pos=(0.426, 0.151), resolution=(1600, 900))):
+    touch([0.1*w, 0.75*h])#点击手机中心位置
+
+sleep(5.0)
+
 touch(Template(r"tpl1647238979336.png", record_pos=(-0.456, 0.149), resolution=(1600, 900)))
+
+if exists(Template(r"tpl1647416818677.png", record_pos=(-0.004, -0.146), resolution=(1600, 900))):
+    touch(Template(r"tpl1647416830949.png", record_pos=(0.088, 0.095), resolution=(1600, 900)))
+sleep(6.0)
+    
+if exists(Template(r"tpl1647416862329.png", record_pos=(-0.449, 0.241), resolution=(1600, 900))):
+    touch(Template(r"tpl1647416876284.png", record_pos=(-0.08, 0.237), resolution=(1600, 900)))
+
+
+
 sleep(4.0)
 
 # 800星奖励
-touch(Template(r"tpl1647239141155.png", record_pos=(-0.136, 0.217), resolution=(1600, 900)))
+touch(Template(r"tpl1647420934687.png", record_pos=(-0.135, 0.218), resolution=(1600, 900)))
 sleep(2.0)
 touch(Template(r"tpl1647239169157.png", record_pos=(-0.466, -0.251), resolution=(1600, 900)))
 sleep(2.0)
@@ -78,7 +114,6 @@ sleep(2.0)
 touch(Template(r"tpl1647239178173.png", record_pos=(0.402, -0.163), resolution=(1600, 900)))
 sleep(1.0)
 
-swipe(Template(r"tpl1647239208644.png", record_pos=(-0.003, -0.022), resolution=(1600, 900)), vector=[0.0499, -0.1617])
 sleep(4.0)
 touch(Template(r"tpl1647239229170.png", record_pos=(0.328, -0.186), resolution=(1600, 900)))
 sleep(1.0)
@@ -165,7 +200,6 @@ if exists(Template(r"tpl1647412816983.png", record_pos=(0.026, -0.102), resoluti
     touch(Template(r"tpl1647241172222.png", record_pos=(0.369, 0.224), resolution=(1600, 900)))
     sleep(1.0)
     touch(Template(r"tpl1647398211211.png", record_pos=(0.333, -0.183), resolution=(1600, 900)))
-
     sleep(1.0)
     touch(Template(r"tpl1647241189667.png", record_pos=(0.436, 0.229), resolution=(1600, 900)))
     sleep(1.0)
@@ -178,7 +212,6 @@ if exists(Template(r"tpl1647412816983.png", record_pos=(0.026, -0.102), resoluti
 
     sleep(1.0)
     touch(Template(r"tpl1647398245861.png", record_pos=(0.394, -0.205), resolution=(1600, 900)))
-
     sleep(1.0)
 touch(Template(r"tpl1647398262689.png", record_pos=(-0.464, -0.253), resolution=(1600, 900)))
 

@@ -9,20 +9,34 @@ touch(Template(r"tpl1647244515455.png", record_pos=(0.449, 0.137), resolution=(1
 sleep(1.0)
 
 touch(Template(r"tpl1647244526063.png", record_pos=(-0.029, 0.195), resolution=(1600, 900)))
-sleep(1.0)
-touch(Template(r"tpl1647244536722.png", record_pos=(-0.001, -0.154), resolution=(1600, 900)))
+sleep(2.0)
+if exists(Template(r"tpl1647244536722.png", record_pos=(-0.001, -0.154), resolution=(1600, 900))):
+    touch(Template(r"tpl1647244536722.png", record_pos=(-0.001, -0.154), resolution=(1600, 900)))
 sleep(1.0)
 if exists(Template(r"tpl1647412042827.png", record_pos=(-0.138, 0.132), resolution=(1600, 900))):
+    sleep(4.0)
     touch(Template(r"tpl1647412068897.png", record_pos=(0.336, 0.228), resolution=(1600, 900)))
-if exists(Template(r"tpl1647412042827.png", record_pos=(-0.138, 0.132), resolution=(1600, 900))):
-    touch(Template(r"tpl1647412068897.png", record_pos=(0.336, 0.228), resolution=(1600, 900)))
+sleep(4.0)
 
+if exists(Template(r"tpl1647412042827.png", record_pos=(-0.138, 0.132), resolution=(1600, 900))):
+    touch(Template(r"tpl1647412068897.png", record_pos=(0.336, 0.228), resolution=(1600, 900)))
+sleep(4.0)
+
+if exists(Template(r"tpl1647412042827.png", record_pos=(-0.138, 0.132), resolution=(1600, 900))):
+    touch(Template(r"tpl1647412068897.png", record_pos=(0.336, 0.228), resolution=(1600, 900)))
+sleep(4.0)
 
 # 进攻&冲锋
 touch(Template(r"tpl1647393536682.png", record_pos=(0.001, 0.214), resolution=(1600, 900)))
 sleep(2.0)
 if exists(Template(r"tpl1647412042827.png", record_pos=(-0.138, 0.132), resolution=(1600, 900))):
     touch(Template(r"tpl1647412068897.png", record_pos=(0.336, 0.228), resolution=(1600, 900)))
+sleep(4.0)
+    
+if exists(Template(r"tpl1647412042827.png", record_pos=(-0.138, 0.132), resolution=(1600, 900))):
+    touch(Template(r"tpl1647412068897.png", record_pos=(0.336, 0.228), resolution=(1600, 900)))
+sleep(4.0)
+
 if exists(Template(r"tpl1647393565252.png", record_pos=(0.09, 0.097), resolution=(1600, 900))):
     touch(Template(r"tpl1647393599538.png", record_pos=(0.091, 0.095), resolution=(1600, 900)))
 sleep(2.0)
@@ -43,20 +57,25 @@ sleep(2.0)
 touch(Template(r"tpl1647244582103.png", record_pos=(0.427, 0.236), resolution=(1600, 900)))
 sleep(2.0)
 touch(Template(r"tpl1647244593008.png", record_pos=(0.424, 0.129), resolution=(1600, 900)))
-sleep(8.0)
+sleep(10.0)
 if exists(Template(r"tpl1647244635928.png", record_pos=(0.454, 0.149), resolution=(1600, 900))):
     touch(Template(r"tpl1647244635928.png", record_pos=(0.454, 0.149), resolution=(1600, 900)))
-sleep(15.0)
+if exists(Template(r"tpl1647485533264.png", record_pos=(0.373, 0.212), resolution=(1600, 900))):    
+    sleep(30.0)
 if exists(Template(r"tpl1647244659264.png", record_pos=(0.004, -0.191), resolution=(1600, 900))):
     touch(Template(r"tpl1647244674817.png", record_pos=(-0.075, 0.232), resolution=(1600, 900)))
 sleep(2.0)
 if exists(Template(r"tpl1647248702438.png", record_pos=(-0.077, 0.231), resolution=(1600, 900))):   
     touch(Template(r"tpl1647248557144.png", record_pos=(-0.078, 0.232), resolution=(1600, 900)))
+# 查看排行榜    
+sleep(2.0)
 
-touch(Template(r"tpl1647248438192.png", record_pos=(-0.3, -0.146), resolution=(1600, 900)))
+if exists(Template(r"tpl1647248438192.png", record_pos=(-0.3, -0.146), resolution=(1600, 900))):
+    touch(Template(r"tpl1647248438192.png", record_pos=(-0.3, -0.146), resolution=(1600, 900)))
 
 sleep(2.0)
-touch(Template(r"tpl1647248489081.png", record_pos=(0.394, -0.204), resolution=(1600, 900)))
+if exists(Template(r"tpl1647248489081.png", record_pos=(0.394, -0.204), resolution=(1600, 900))):
+    touch(Template(r"tpl1647248489081.png", record_pos=(0.394, -0.204), resolution=(1600, 900)))
 
 sleep(1.0)
 
@@ -123,7 +142,7 @@ def ta():
     sleep(2.0)
     
     if exists(Template(r"tpl1647394012127.png", record_pos=(0.002, 0.215), resolution=(1600, 900))):
-    touch(Template(r"tpl1647394024264.png", record_pos=(0.003, 0.217), resolution=(1600, 900)))
+        touch(Template(r"tpl1647394024264.png", record_pos=(0.003, 0.217), resolution=(1600, 900)))
 
     sleep(2.0)
     if exists(Template(r"tpl1647244582103.png", record_pos=(0.427, 0.236), resolution=(1600, 900))):
@@ -135,7 +154,8 @@ def ta():
     sleep(8.0)
     if exists(Template(r"tpl1647244635928.png", record_pos=(0.454, 0.149), resolution=(1600, 900))):
         touch(Template(r"tpl1647244635928.png", record_pos=(0.454, 0.149), resolution=(1600, 900)))
-    sleep(3.0)
+    if exists(Template(r"tpl1647485533264.png", record_pos=(0.373, 0.212), resolution=(1600, 900))):    
+        sleep(30.0)
     
     if exists(Template(r"tpl1647244659264.png", record_pos=(0.004, -0.191), resolution=(1600, 900))):
         touch(Template(r"tpl1647244674817.png", record_pos=(-0.075, 0.232), resolution=(1600, 900)))
@@ -174,8 +194,8 @@ if exists(Template(r"tpl1647395061858.png", record_pos=(0.001, 0.216), resolutio
     ta()
 
 sleep(1.0)
-
-touch(Template(r"tpl1647247764036.png", record_pos=(0.349, -0.196), resolution=(1600, 900)))
+if exists(Template(r"tpl1647247764036.png", record_pos=(0.349, -0.196), resolution=(1600, 900))):
+    touch(Template(r"tpl1647247764036.png", record_pos=(0.349, -0.196), resolution=(1600, 900)))
 sleep(2.0)
 touch(Template(r"tpl1647247789456.png", record_pos=(-0.464, -0.251), resolution=(1600, 900)))
 
